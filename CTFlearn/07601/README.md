@@ -3,7 +3,7 @@
 
 ### General Information
 
-__Challenge__: Help! My friend stole my flashdrive that had the flag on it. When he gave it back the flag was changed! Can you help me decrypt it?
+__Challenge__: I think I lost my flag in there. Hopefully, it won't get attacked...
 
 __Challege Category__: FORENSICS
 
