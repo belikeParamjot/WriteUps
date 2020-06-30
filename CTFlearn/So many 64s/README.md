@@ -17,7 +17,7 @@ Download the flag.txt [here.](https://mega.nz/file/OHhUyIqA#H9WxSdG1O7eVcCm0dffg
 
 So if we cat the flag.txt and we see a big chunk of text.
 
-![So Many 64s File](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/So%20many%2064s/Images/file.png)
+![So Many 64s File](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/So%20many%2064s/file.png)
 
 After analyzing it, we can say it is, a base64 cipher, that has been encoded over a no. of times. It surely is an easy problem, if you know how to create a python script, to decode a base64 cipher, over and over until it gives us the flag.
 Even if you are a beginner, I will show you how I created this script in brief.
@@ -54,6 +54,6 @@ except:
 
 When you run the script, the output will be this:
 
-![So Many 64s flag](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/So%20many%2064s/Images/flag.png)
+![So Many 64s flag](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/So%20many%2064s/flag.png)
 
 __Flag__: ABCTF{pr3tty_b4s1c_r1ght?}
