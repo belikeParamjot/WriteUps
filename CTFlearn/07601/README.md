@@ -19,19 +19,19 @@ Download the file [here.](https://mega.nz/file/CXYXBQAK#6eLJSXvAfGnemqWpNbLQtOHB
 
 This challenge was pretty easy, but it took me a few extra minutes than usual. Anyhow, let's start with opening the file:
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/07601/file.png)
 
 Huh! Strange, I guessed here to fix the png header to view the file... But that was a fail to me, than I used the strings to view the file and that gave me pretty interesting strings like these:
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/07601/image2.png)
 
 So I thought there must be some hidden files inside it, I used the ```binwalk -e <image>``` to extract all the files and then it gave me a folder in which these were the files:
 
-![Image3]()
+![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/07601/image3.png)
 
 Now I tried to view the _I Warned You.jpeg_ image also, but that also dint show anything, when I tried to fix its jpeg header, it was still not letting me view the image. At last I tried to use the strings command and grepped out the flag: ```strings <image> | grep -i ctf``` which gave me this:
 
-![Image4]()
+![Image4](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/07601/image4.png)
 
 __Flag__: ABCTF{Du$t1nS_D0jo}
 
