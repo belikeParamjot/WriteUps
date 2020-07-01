@@ -78,7 +78,7 @@ Run the script with the command: ```python <script>.py```
 
 ![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/RSA%20Noob/2.png)
 
-__Flag__: 
+__Flag__: abctf{b3tter_up_y0ur_e}
 ## References
 
 __RSA Overview__: [GeeksforGeeks](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/), [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))  
