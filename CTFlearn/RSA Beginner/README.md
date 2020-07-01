@@ -53,7 +53,7 @@ Now we have all we need to find the value of message, ```message = pow(c,e,n)```
 
 At last, when you run this script you will get a long integer string like this... 
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/RSA%20Beginner/1.png)
 
 Technically, it is your flag, but only when we convert these long ints into there respective readable bytes, so for that we are going to use another function defined inside the ```Crypto.Util``` library i.e. ```long_to_bytes()``` So let's add it to our script and print it with ```print long_to_bytes(message)```
 
@@ -76,12 +76,13 @@ print long_to_bytes(message)
 ```
 Run the script with the command: ```python <script>.py```
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/RSA%20Beginner/2.png)
 
 __Flag__: abctf{rs4_is_aw3s0m3}
 ## References
 
 __RSA Overview__: [GeeksforGeeks](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/), [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))  
-__Crypto Module__: [PyPi](https://pypi.org/project/pycrypto/), [PyCryptoDome](https://pycryptodome.readthedocs.io/en/latest/src/util/util.html)
+__Crypto Module__: [PyPi](https://pypi.org/project/pycrypto/), [PyCryptoDome](https://pycryptodome.readthedocs.io/en/latest/src/util/util.html)  
+__My Blog__: [theProJax](#)
 
 
