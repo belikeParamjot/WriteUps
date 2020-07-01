@@ -15,11 +15,11 @@ __Skills__: None, (Optional Topic: Web Crawlers)
 
 As the question suggests where do robots find pages on website, well that's robots.txt, so let's view the web page at ```/robots.txt``` i.e https://ctflearn.com/robots.txt
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Where%20Can%20My%20Robot%20Go%3F/1.png)
 
 Here, it tells the all(*) User-Agents to not crawl on the directory page: ```/70r3hnanldfspufdsoifnlds.html``` let's go and view this directory. 
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Where%20Can%20My%20Robot%20Go%3F/2.png)
 
 Here, we found the flag to this challenge.
 
