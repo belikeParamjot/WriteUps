@@ -17,6 +17,6 @@ As you can see, we have the flag in this format: ```41 42 43 54 46 7B 34 35 43 3
 
 Now, am not sure in case you noticed it, that the flag is converted to hex chars, and all we got to do is convert this string into ascii. So, go to this [site](https://www.rapidtables.com/convert/number/hex-to-ascii.html), which I generally use to convert my strings into other formats.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Character%20Encoding/1.png)
 
 __Flag__: ABCTF{45C11_15_U53FUL}
