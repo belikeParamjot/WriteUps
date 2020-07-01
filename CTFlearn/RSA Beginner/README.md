@@ -49,7 +49,7 @@ Before finding the private key, lets find the value of phi function as as ```pri
 The  value of phi will be ```phi = (p-1)*(q-1)```. The good thing about the imported module is, it makes our work of finding the private key very simple by just using one function, and passing the parameters e and phi, respectively. Therefore, ```d=inverse(e,phi)```
 
 ### Finding the Message: The Flag
-Now we have all we need to find the value of message, ```message = pow(c,e,n)```. In case you're wondering what is the 3rd parameter doing in the ```pow()``` function, it is to find the modulus of the result of ```c``` to the power ```d``` with ```n```.
+Now we have all we need to find the value of message, ```message = pow(c,d,n)```. In case you're wondering what is the 3rd parameter doing in the ```pow()``` function, it is to find the modulus of the result of ```c``` to the power ```d``` with ```n```.
 
 At last, when you run this script you will get a long integer string like this... 
 
