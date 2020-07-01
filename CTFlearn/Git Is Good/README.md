@@ -17,14 +17,14 @@ Download the repo [here.](https://mega.nz/#!3CwDFZpJ!Jjr55hfJQJ5-jspnyrnVtqBkMHG
 
 Here, we are given a git repository, with file named ```flag.txt```. Now let's view the contents of it.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Git%20Is%20Good/1.png)
 
 It says ```flag{REDACTED}```. It tried this as the flag in the input field but didn't work. I wonder if the flag is really _REDACTED_ so I tried to view the logs of the file, and found there were these logs.
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Git%20Is%20Good/2.png)
 
 Then I try to find the changes from the previous 2 commits using the ```--patch``` or ```-p``` flag.
 
-![Image3]()
+![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Git%20Is%20Good/3.png)
 
 __Flag__: flag{protect_your_git}
