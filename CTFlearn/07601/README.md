@@ -3,7 +3,7 @@
 
 ### General Information
 
-__Challenge__: I think I lost my flag in there. Hopefully, it won't get attacked...
+__Challenge Description__: I think I lost my flag in there. Hopefully, it won't get attacked...
 
 __Challege Category__: FORENSICS
 
