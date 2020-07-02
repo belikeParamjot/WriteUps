@@ -19,7 +19,7 @@ Download the file [here.](https://mega.nz/file/CXYXBQAK#6eLJSXvAfGnemqWpNbLQtOHB
 
 Now if you don't know about morse code... Check out the link in the [references](#References). Now that you know about it, let's go to this [site](https://www.boxentriq.com/code-breaking/morse-code) and paste this morse code there, which eventually gives us the flag.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Morse%20Code/1.png)
 
 __Flag__: SAMUELMORSEISCOOLBYTHEWAYILIKECHEES
 
