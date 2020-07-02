@@ -15,6 +15,6 @@ __Skills__: Observation
 
 Challenge is so easy that I am laughing while making it's writeup. Just take the binary digits and decode them [here](https://www.rapidtables.com/convert/number/binary-to-ascii.html). 
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Reverse%20Polarity/1.png)
 
 __Flag__: CTF{Bit_Flippin}
