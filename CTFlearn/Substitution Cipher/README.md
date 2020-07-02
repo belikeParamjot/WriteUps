@@ -15,6 +15,6 @@ Download the file [here.](https://mega.nz/#!iCBz2IIL!B7292dJSx1PGXoWhd9oFLk2g0NF
 
 There is this amazing site to bruteforce Vigenere Cipher and Substitution Cipher with different keys, and displays the most appropriate of them all i.e. [Guballa.de](https://guballa.de/substitution-solver). Just paste the whole cipher text inside the box, select language to english and click ```Break Cipher```.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Substitution%20Cipher/1.png)
 
 __Flag__: IFONLYMODERNCRYPTOWASLIKETHIS
