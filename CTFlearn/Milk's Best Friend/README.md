@@ -23,6 +23,6 @@ We have got an image of an oreo biscuit. If try to strings it doesn't show anyth
 
 I extracted the image with ```binwalk -e oreo.jpg``` and it extracted another picture ```b.jpg```. Now when I ran strings command on this jpg, it gave me this.
 
-![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Milk's%20Best%20Friend/1.png)
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Milk's%20Best%20Friend/2.png)
 
 __Flag__: flag{eat_more_oreos}
