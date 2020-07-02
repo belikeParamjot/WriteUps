@@ -17,6 +17,12 @@ Download the file [here.](https://mega.nz/file/CXYXBQAK#6eLJSXvAfGnemqWpNbLQtOHB
 
 ## Solution
 
-Now if you don't know about morse code... Check out the link in the [references](#References). Now that you know about it, let's go to this [site](http://www.unit-conversion.info/texttools/morse-code/) and paste this morse code there, which eventually gives us the flag.
+Now if you don't know about morse code... Check out the link in the [references](#References). Now that you know about it, let's go to this [site](https://www.boxentriq.com/code-breaking/morse-code) and paste this morse code there, which eventually gives us the flag.
+
+![Image1]()
 
 __Flag__: SAMUELMORSEISCOOLBYTHEWAYILIKECHEES
+
+## References
+
+[Morse Code](https://en.wikipedia.org/wiki/Morse_code)
