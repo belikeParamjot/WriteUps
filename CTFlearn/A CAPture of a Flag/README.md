@@ -21,13 +21,15 @@ If you don't know about wireshark or haven't used it before, I highly recommend 
 
 So starting with the basic analysis: Let's apply filter for ```http``` first, because most of the communication is handled on this protocol.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/A%20CAPture%20of%20a%20Flag/1.png)
 
 Right click on the first packet > Follow > TCP stream. Now here start analyzing all the streams. Once you have gone through these streams, you might have noticed something suspicious on stream no. 5 with a GET request to address ```/?msg=ZmxhZ3tBRmxhZ0luUENBUH0=```. 
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/A%20CAPture%20of%20a%20Flag/2.png)
 
 This is a base64 cipher, after decrypting it... You will get your flag.
+
+![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/A%20CAPture%20of%20a%20Flag/3.png)
 
 __Flag__: flag{AFlagInPCAP} 
 
