@@ -17,7 +17,7 @@ Download the file [here.](https://mega.nz/#!JItR3aqI!QKGxexShAPt-HUU_2DAdJKUljXc
 
 Goto this [site](https://online-barcode-reader.inliteresearch.com/) to scan the QR Code.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/QR%20Code%20v2/1.png)
 
 When decoded, it gave us another [link](https://mega.nz/file/9NFhUbwQ#vtrLVum8z-ZXzur33RrGJ4uivMJhA9_5TW2ulHucXoU) to download, lets download the flag.txt file, in which we found the flag.
 
