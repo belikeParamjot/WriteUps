@@ -15,6 +15,6 @@ __Skills__: Observation
 
 This challenge can take a pretty while if you didn't observe it correctly. Like, we are given 2 hex values, and we have to generate a secret code out of it somehow. I wonder how that could be?? Well the description also tells, that someone named __ROXy__ created this secret code. If you see that's written XOR in reverse. So all we gotta do is XOR the two hex values given to us in the challenge.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Hextroadinary/1.png)
 
 __Flag__: 0xc0ded
