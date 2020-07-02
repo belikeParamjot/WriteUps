@@ -18,6 +18,4 @@ Download the file [here.](https://mega.nz/#!ifA2QAwQ!WF-S-MtWHugj8lx1QanGG7V91R-
 It's a simple challenge, and all you gotta do is type the command ```exiftool <image>``` in your browser and it will give you all the meta data about that image in just a blink.  
 In case you don't have exiftool installed, you can install it with the help of ```sudo apt install exiftool``` and then you will be able to solve it.
 
-![Image1]()
-
 __Flag__: flag{EEe_x_I_FFf}
