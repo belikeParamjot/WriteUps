@@ -19,10 +19,10 @@ Download the file [here.](https://mega.nz/file/DC5F2KgR#P8UotyST_6n2iW5BS1yYnum8
 
 We have got an image of an oreo biscuit. If try to strings it doesn't show anything worth noticing. Now I ran binwalk command to see if there is some hidden data inside it. And voyla we found this.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Milk's%20Best%20Friend/1.png)
 
 I extracted the image with ```binwalk -e oreo.jpg``` and it extracted another picture ```b.jpg```. Now when I ran strings command on this jpg, it gave me this.
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Milk's%20Best%20Friend/1.png)
 
 __Flag__: flag{eat_more_oreos}
