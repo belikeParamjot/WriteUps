@@ -15,6 +15,6 @@ __Skills__: OSINT
 
 The challenge is pretty simple, just head onto this [site](https://www.opentracker.net/feature/ip-tracker) and paste the IP given in the description, and there you get your city name ~ flag.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/IP%20Tracer/1.png)
 
 __Flag__: flag{warwick}
