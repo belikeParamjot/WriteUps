@@ -17,7 +17,7 @@ Download the file [here.](https://mega.nz/#!3WhAWKwR!1T9cw2srN2CeOQWeuCm0ZVXgwk-
 
 ## Solution
 
-If you don't know about wireshark or haven't used it before, I highly recommend you to check out [references](#References) before else you may not be able to understand what am I doing here.
+If you don't know about wireshark or haven't used it before, I highly recommend you to check out [references](#References) before else you may not be able to understand what am I doing here. Also, just convert the file's extension to .pcap, so that wireshark could run it by analyzing it's content.
 
 So starting with the basic analysis: Let's apply filter for ```http``` first, because most of the communication is handled on this protocol.
 
