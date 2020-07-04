@@ -21,13 +21,13 @@ After firing up the wireshark and opening the file in it... Let's take a moment 
 
 Now let's follow the TCP stream through right clicking the first packet > Follow > TCP Stream, and go through each stream... And you will notice, a login post request to the router which gives you the user's  password in base64 format.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Digital%20Camouflage/1.png)
 
 NOTE: Those %3Ds are HTML url-encoding corresponding to there ascii digits i.e. equal to '=' symbol. You can find a list to these url-encodings in [references](#References) section below.
 
 Just copy the password and decode it with command ```echo "<password found>" | base64 -d```, after changing the %3D symbols with '=' symbol.
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Digital%20Camouflage/2.png)
 
 __Flag__: PApdsjRTae
 
