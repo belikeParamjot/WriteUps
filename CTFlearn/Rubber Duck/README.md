@@ -20,6 +20,6 @@ Download the file [here.](https://ctflearn.com/challenge/download/933)
 A simple problem... and you'll find the flag inside the meta data of this Image 
 Just type ```exiftool RubberDuck.jpg```
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Rubber%20Duck/1.png)
 
 __Flag__: CTFlearn{ILoveJakarta}
