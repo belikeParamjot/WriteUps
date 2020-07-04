@@ -19,14 +19,14 @@ Download the file [here.](https://mega.nz/file/CXYXBQAK#6eLJSXvAfGnemqWpNbLQtOHB
 
 Now this one's a bit tricky... Like when I first view meta of the file, it gave me flag like this...
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Snowboard/1.png)
 
 but then it didn't come out to be correct... Then just out of curiosity I tried to view a file's content by using ```file Snowboard.jpg``` and it surprised me with this...
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Snowboard/2.png)
 
 It was an encoded base64 string... I decode it with the terminal which eventually lead me to this...
 
-![Image3]()
+![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Snowboard/3.png)
 
 __Flag__: CTFlearn{SkiBanff}
