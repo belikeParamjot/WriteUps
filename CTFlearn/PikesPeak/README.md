@@ -19,7 +19,7 @@ Download the file [here.](https://ctflearn.com/challenge/download/935)
 
 Use strings and grep the output with ```"ctf"``` with flag ```-i``` and you will get...
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/PikesPeak/1.png)
 
 Now, if you observe it carefully, only one flag is following the correct format of ```CTFlearn{...}```, and that is our flag for this challenge.
 
