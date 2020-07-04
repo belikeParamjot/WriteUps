@@ -54,10 +54,10 @@ if count0%3==0 or count1%2==0:  # Testing the condition to calculate the final r
 
 Now let us combine all of it.
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Simple%20Programming/1.png)
 
 And when you run the script, it gives us this output...
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Simple%20Programming/2.png)
 
 __Flag__: 6662
