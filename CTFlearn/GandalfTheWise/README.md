@@ -19,11 +19,11 @@ Download the file [here.](https://ctflearn.com/challenge/download/936)
 
 The challenge says we might need to code a script for that. Alright, let's first view the strings inside the image. 
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/GandalfTheWise/1.png)
 
 We found 3 comments, out of which 1 seems to be a base64 cipher. Let's decrypt it. 
 
-![Image2]()
+![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/GandalfTheWise/2.png)
 
 I tried this as the flag... But that wasn't correct... So I started to wonder if this is a hint to the flag. Hmm... XORing the other 2 comments? Now the challenge here is not converting the 2 strings to hexdump and then xoring each byte... We first gotta base64 decrypt the cipher, and create a hexdump of the decoded strings, then finally we gotta xor the dumps, and decode the final hex string to ascii flag.
 
@@ -40,7 +40,7 @@ dumpy = <comment3>.decode('base64').encode('hex')
 
 Now that we have the dumps in this format we gotta xor these hex strings, now the challenge here for me was... That how to tell these strings are hexdumps and not strings, because the interpreter will by default view this as strings. So I went to a bit of googling, and found this method of first converting the strings into _base-16 integers_ and then convert it into hex value. Later it came out to be this...
 
-![Image3]() 
+![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/GandalfTheWise/3.png) 
 
 This value is hex dump... and contains '0x' and 'L' at the ends... we gotta strip that off and we can do that by ```rstrip()```ing and ```lstrip()```ing the ends.
 
@@ -67,7 +67,7 @@ print flag_dump.decode('hex')
 ```
 Now when you run the script your output would be...
 
-![Image4]()
+![Image4](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/GandalfTheWise/4.png)
 
 __Flag__: CTFlearn{Gandalf.BilboBaggins}
 
