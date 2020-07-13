@@ -13,7 +13,7 @@ __Skills__: Observational
 
 __Tools__: hexedit, vim
 
-Download the file [here.](https://mega.nz/file/CXYXBQAK#6eLJSXvAfGnemqWpNbLQtOHBvtkCzA7-zycVjhHPYQQ)
+Download the file [here.](https://mega.nz/file/aKwGFARR#rS60DdUh8-jHMac572TSsdsANClqEsl9PD2sGl-SyDk)
 
 ## Solution
 
@@ -27,7 +27,7 @@ So I opened the file in vim with ```vim unopenable.gif```(or you can use any tex
 
 ![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Corrupted%20File/2.png)
 
-Then save the file. When I opened it... It gave me the gif with the flag in base64 format. I then used this [site] where I uploaded the gif to reduce it's speed. Change the speed according to your convenience, and write the flag manually in your notepad. 
+Then save the file. When I opened it... It gave me the gif with the flag in base64 format. I then used this [site] where I uploaded the gif to reduce it's speed. Change the speed according to your convenience, and write the flag manually in your notepad which is displayed at a reduced speed. 
 
 ![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Corrupted%20File/3.png)
 
