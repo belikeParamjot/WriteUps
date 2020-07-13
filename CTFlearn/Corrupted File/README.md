@@ -11,7 +11,7 @@ __Challenge Difficulty__: HARD
 
 __Skills__: Observational
 
-__Tools__: hexedit, vim
+__Tools__: hexedit, vim, Imagemagick
 
 Download the file [here.](https://mega.nz/file/aKwGFARR#rS60DdUh8-jHMac572TSsdsANClqEsl9PD2sGl-SyDk)
 
@@ -27,8 +27,8 @@ So I opened the file in vim with ```vim unopenable.gif```(or you can use any tex
 
 ![Image2](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Corrupted%20File/2.png)
 
-Then save the file. When I opened it... It gave me the gif with the flag in base64 format. I then used this [site] where I uploaded the gif to reduce it's speed. Change the speed according to your convenience, and write the flag manually in your notepad which is displayed at a reduced speed. 
-
+Then save the file. When I opened it... It gave me the gif with the flag in base64 format. I used ```ImageMagick``` to convert all the frames in gif into png's with white background (If you don't have this tool installed, you can install it with: ```sudo apt install imagemagick```). Just type in ```convert unopenable.gif %01d.png``` (%01d denotes to create pngs upto one digit character, in this way it will prevent the tool to fill up your directory with png images by maintaining a threshold of one characted digit). Then just open the files one by one, and manually write the obtained base64 string, from those PNGs.    
+ 
 ![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Corrupted%20File/3.png)
 
 Then decode the flag with the command ```echo "<string>" | base64 -d``` which gives you your flag. 
