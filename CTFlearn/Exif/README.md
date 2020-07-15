@@ -17,9 +17,9 @@ Download the file [here.](https://mega.nz/#!SDpF0aYC!fkkhBJuBBtBKGsLTDiF2NuLihP2
 
 ## Solution
 
-Idk why the heck they put this in easy category... And lol why would you even look at a writeup for this challenge... Go give it a head yourself. Trust me it's not worth writing a writeup for this... Not that you ask for it... Just type ```exiftool <image>```
+Idk why the heck they didn't put this in easy category... And lol why would you even look at a writeup for this challenge... Go give it a head yourself. Trust me it's not worth writing a writeup for this... Not that you ask for it... Just type ```exiftool <image>```
 
-![Image1]()
+![Image1](https://github.com/iParamjotSingh/WriteUps/blob/master/CTFlearn/Exif/1.png)
 
 BOOM!  
 __Flag__: flag{3l1t3_3x1f_4uth0r1ty_dud3br0}
