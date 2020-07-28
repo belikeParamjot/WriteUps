@@ -3,7 +3,7 @@
 __Series__: Sunset  
 __Difficulty__: Easy/Intermediate  
 __VM Page__: https://www.vulnhub.com/entry/sunset-1,339/  
-__Download__:  https://mega.nz/#!AGZU1C6J!y_Pc0BEJ2EsAFiBeUY91s4e9mgrlo8sN4aT3wKVen6s  
+__Download__: https://mega.nz/#!AGZU1C6J!y_Pc0BEJ2EsAFiBeUY91s4e9mgrlo8sN4aT3wKVen6s  
 
 ## Solution
 
