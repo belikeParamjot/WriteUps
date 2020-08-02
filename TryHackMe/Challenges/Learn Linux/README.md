@@ -20,12 +20,12 @@ This challenge did all the stuff for us, and all we gotta find is, a binary loca
 ![Image3](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Challenges/Learn%20Linux/3.png)
 
 ### Shiba4 
-This final challenge seemed tricky to me, but not difficult at all... you see here we do not need to find any file with suid bit... Ok no spoilers, Let's get down to business.  
-What I did was to find a file with suid bit set because sudo -l didn't work in any of the binary. After looking for a while, I couldn't find anything useful then I started to see if there is any file belonging to the user anywhere else on the system? I couldn't find anythin there either until I came to the user shiba2, where I found a log file named test1234
+This final challenge seemed tricky to me, but not difficult at all... you see here we do not need to find any file with suid bit... Alright, no spoilers, let's work it out...  
+What I did was to find a file with suid bit set because sudo -l didn't work in any of the binaries. After looking for a while, I couldn't find anything useful then I started to see if there is any file belonging to the user anywhere else on the system? I couldn't find anythin there either until I came to the user shiba2, where I found a log file named test1234
 
 ![Image4](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Challenges/Learn%20Linux/4.png)
 
-When I cat the file it gave me password for the user nootnoot. I logged in as nootnoot ran sudo -l and I get that I can run all everything as root
+Be sure to cat the file as the user shiba2 because only that user is allowed to cat the file, so when I cat the file as shiba2 it gave me password for the user nootnoot. I logged in as nootnoot, ran sudo -l and I get that I can run all as root
 
 ![Image5](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Challenges/Learn%20Linux/5.png)
 
