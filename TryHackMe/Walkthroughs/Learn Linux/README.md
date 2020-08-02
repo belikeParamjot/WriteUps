@@ -10,7 +10,7 @@ A guided room designed to teach you the Linux basics!
 ### [Task 10] [Section 3: Basic File Operations] - Running A Binary
 ![Image4](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/4.png)
 ### [Task 11] Binary - Shiba1
-All the shiba problems are covered in detailed [here](#).
+All the shiba problems are covered in detailed [here](https://github.com/iParamjotSingh/WriteUps/tree/master/TryHackMe/Challenges/Learn%20Linux).
 ### [Task 12] su
 ![Image5](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/5.png)
 ### [Task 14] [Section 4: Linux Operators]: ">"
@@ -18,7 +18,7 @@ All the shiba problems are covered in detailed [here](#).
 ### [Task 18] [Section 4: Linux Operators]: "$"
 ![Image7](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/7.png)
 ### [Task 21] Binary - shiba2
-All the shiba problems are covered in detailed [here](#).
+All the shiba problems are covered in detailed [here](https://github.com/iParamjotSingh/WriteUps/tree/master/TryHackMe/Challenges/Learn%20Linux).
 ### [Task 24] [Section 5: Advanced File Operations]: chmod
 ![Image8](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/8.png)
 ### [Task 25] [Section 5: Advanced File Operations] - chown
@@ -36,10 +36,10 @@ All the shiba problems are covered in detailed [here](#).
 ### [Task 32] [Section 5: Advanced File Operations] - grep
 ![Image15](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/15.png)
 ### [Task 33] Binary - Shiba3
-All the shiba problems are covered in detailed [here](#).
+All the shiba problems are covered in detailed [here](https://github.com/iParamjotSingh/WriteUps/tree/master/TryHackMe/Challenges/Learn%20Linux).
 ### [Task 35] [Section 6: Miscellaneous]: sudo
 ![Image16](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/16.png)
 ### [Task 36] [Section 6: Miscellaneous]: Adding users and groups
 ![Image17](https://github.com/iParamjotSingh/WriteUps/blob/master/TryHackMe/Walkthroughs/Learn%20Linux/17.png)
 ### [Task 43] Bonus Challenge - The True Ending
-All the shiba problems are covered in detailed [here](#).
+All the shiba problems are covered in detailed [here](https://github.com/iParamjotSingh/WriteUps/tree/master/TryHackMe/Challenges/Learn%20Linux).
