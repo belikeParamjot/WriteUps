@@ -12,6 +12,6 @@ And the description says that you need to make a POST request. So I used ```curl
 
 ```curl -X POST --data "username=admin&password=71urlkufpsdnlkadsf" http://165.227.106.113/post.php```
 
-![Image 1]()
+![Image 1](https://github.com/belikeParamjot/WriteUps/blob/master/CTFlearn/Post%20Practice/1.png)
 
 __Flag__: flag{p0st_d4t4_4ll_d4y}
